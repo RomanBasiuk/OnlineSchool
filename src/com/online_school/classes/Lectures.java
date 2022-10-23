@@ -5,17 +5,21 @@ public class Lectures {
 
     private String nameLecture;
 
-    public static int lecture;
+    public static int Lecture = 0;
 
-    public Lectures(String nameLecture){
-        this.nameLecture = nameLecture;
+    public Lectures(){
+
+    }
+
+    public Lectures(Long ID, String nameLecture){
         this.ID = ID;
-        lecture++;
+        this.nameLecture = nameLecture;
+
     }
 
     public void printNameLectures () {
-
-        System.out.println(nameLecture + " ");
+        Lecture++;
+        System.out.println(Lecture + " " + ID + " " + nameLecture + " ");
     }
 
 

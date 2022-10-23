@@ -5,19 +5,20 @@ public class Courses {
     private String nameLecture;
     private String nameTeacher;
 
+    public static int Courses = 0;
     public Courses(){
 
     }
 
-    public Courses(Long ID, String nameLectures, String nameTeacher){
-    this.ID = ID;
-    this.nameLecture = nameLectures;
-    this.nameTeacher = nameTeacher;
+    public Courses(Long ID, String nameLectures, String nameTeacher) {
+        this.ID = ID;
+        this.nameLecture = nameLectures;
+        this.nameTeacher = nameTeacher;
     }
 
     public void printNameCourses() {
-
-        System.out.println(ID + " " + nameLecture + " " + nameTeacher + "");
+        Courses++;
+        System.out.println(Courses + " " + ID + " " + nameLecture + " " + nameTeacher + "");
     }
 
 }

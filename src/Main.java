@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Lectures lecturesName = new Lectures("Name Lecture");
-        Lectures lecturesName2 = new Lectures("Name Lecture 2");
-        Lectures lecturesName3 = new Lectures("Name Lecture 3");
+        Lectures lecturesName = new Lectures(1L, "nameLecture");
+        Lectures lecturesName2 = new Lectures(1L, "nameLecture");
+        Lectures lecturesName3 = new Lectures(1L, "nameLecture");
 
         lecturesName.printNameLectures();
         lecturesName2.printNameLectures();
@@ -16,23 +16,23 @@ public class Main {
 
         System.out.println();
 
-        Courses courses = new Courses(1L,"1 Lecture","1 Teacher");
-        Courses courses1 = new Courses(2L,"2 Lecture", "2 Teacher");
-        Courses courses2 = new Courses(3L,"3 Lecture","3 Teacher");
+        Courses courses = new Courses(1L,"Lecture","Teacher");
+        Courses courses2 = new Courses(1L,"Lecture", "Teacher");
+        Courses courses3 = new Courses(1L,"Lecture","Teacher");
 
         courses.printNameCourses();
-        courses1.printNameCourses();
         courses2.printNameCourses();
+        courses3.printNameCourses();
 
         System.out.println();
 
-        Students studentWithName = new Students("Name","Surname");
+        /* Students studentWithName = new Students("Name","Surname");
         Students studentWithName2 = new Students("Name2","Surname2");
         Students studentWithName3 = new Students("Name3","Surname3");
 
         studentWithName.printNameStudents ();
         studentWithName2.printNameStudents ();
-        studentWithName3.printNameStudents ();
+        studentWithName3.printNameStudents (); */
 
 
     }
