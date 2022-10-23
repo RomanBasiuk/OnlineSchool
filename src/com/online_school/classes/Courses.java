@@ -2,16 +2,22 @@ package com.online_school.classes;
 
 public class Courses {
     private Long ID;
-
-    private String name;
+    private String nameLecture;
+    private String nameTeacher;
 
     public Courses(){
-        this.name = name;
+
+    }
+
+    public Courses(Long ID, String nameLectures, String nameTeacher){
+    this.ID = ID;
+    this.nameLecture = nameLectures;
+    this.nameTeacher = nameTeacher;
     }
 
     public void printNameCourses() {
 
-        System.out.println();
+        System.out.println(ID + " " + nameLecture + " " + nameTeacher + "");
     }
 
 }

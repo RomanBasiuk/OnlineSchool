@@ -4,9 +4,8 @@ import com.online_school.classes.Lectures;
 
 public class LecturesService {
 
-    public Lectures LecturesCreations() {
-
-        return new Lectures();
+    public LecturesService Creations() {
+        return new LecturesService();
 
     }
 
