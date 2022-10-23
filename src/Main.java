@@ -10,9 +10,13 @@ public class Main {
         Lectures lecturesName2 = new Lectures(1L, "nameLecture");
         Lectures lecturesName3 = new Lectures(1L, "nameLecture");
 
+        Lectures lecturesName5 = new Lectures(3l,"nameLecture");
+
         lecturesName.printNameLectures();
         lecturesName2.printNameLectures();
         lecturesName3.printNameLectures();
+
+        lecturesName.printNameLectures();
 
         System.out.println();
 
