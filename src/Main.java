@@ -9,13 +9,15 @@ public class Main {
         Lectures lecturesName = new Lectures(1L, "nameLecture");
         Lectures lecturesName2 = new Lectures(1L, "nameLecture");
         Lectures lecturesName3 = new Lectures(1L, "nameLecture");
-
+        Lectures LecturesName3 = new Lectures(2L, "ameLecture2");
+        Lectures LecturesName4 = new Lectures(2L, "ameLecture2");
         Lectures lecturesName5 = new Lectures(3l,"nameLecture");
-
+        
         lecturesName.printNameLectures();
-        lecturesName2.printNameLectures();
-        lecturesName3.printNameLectures();
-
+        lecturesName.printNameLectures();
+        lecturesName.printNameLectures();
+        lecturesName.printNameLectures();
+        lecturesName.printNameLectures();
         lecturesName.printNameLectures();
 
         System.out.println();
@@ -30,7 +32,7 @@ public class Main {
 
         System.out.println();
 
-        /* Students studentWithName = new Students("Name","Surname");
+    /* Students studentWithName = new Students("Name","Surname");
         Students studentWithName2 = new Students("Name2","Surname2");
         Students studentWithName3 = new Students("Name3","Surname3");
 
