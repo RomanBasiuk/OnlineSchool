@@ -9,18 +9,16 @@ public class Main {
         Lectures lecturesName = new Lectures(1L, "nameLecture");
         Lectures lecturesName2 = new Lectures(1L, "nameLecture");
         Lectures lecturesName3 = new Lectures(1L, "nameLecture");
-
         Lectures LecturesName3 = new Lectures(2L, "ameLecture2");
         Lectures LecturesName4 = new Lectures(2L, "ameLecture2");
-
-
+        Lectures lecturesName5 = new Lectures(3l,"nameLecture");
+        
         lecturesName.printNameLectures();
         lecturesName.printNameLectures();
         lecturesName.printNameLectures();
-
         lecturesName.printNameLectures();
         lecturesName.printNameLectures();
-
+        lecturesName.printNameLectures();
 
         System.out.println();
 
